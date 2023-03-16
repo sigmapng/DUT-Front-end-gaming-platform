@@ -1,8 +1,14 @@
 :root {
-  --general-bg: rgb(249, 247, 244);
-  --bg-darker: rgb(244, 241, 234);
-  --word-emphasis-bg: #c1c3a0dc;
-  --selection-color: rgba(97, 111, 85, 0.56);
+  --general-bg: rgb(16, 15, 14);
+  --bg-gradient: linear-gradient(180deg, rgba(16, 15, 14, 1) 20%, rgba(43, 28, 11, 1) 80%);
+  --hover-transition: 0.4s ease-in-out;
+  --main-text-color: #ffff;
+  --main-text-color-hover: #ffffff59;
+  --contacts-btn-color: rgb(250, 144, 33);
+  --contacts-btn-hover: rgba(250, 145, 33, 0.627);
+  --details-btn-color: rgb(207, 65, 11);
+  --details-btn-gradient: linear-gradient(100deg, rgba(207, 65, 11, 1) 20%, rgba(205, 128, 50, 1) 80%);
+  --details-bg-hover: linear-gradient(100deg, rgba(207, 65, 11, 0.6937368697478992) 20%, rgba(205, 128, 50, 0.6993391106442577) 80%);
 }
 
 * {
@@ -16,6 +22,7 @@ html {
 
 .container {
   background-color: var(--general-bg);
+  color: var(--main-text-color);
   width: 100vw;
   max-width: 2000px;
   display: flex;
@@ -29,4 +36,27 @@ html {
 
 img {
   width: 50%;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav, header h2 {
+  margin: 30px;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: var(--main-text-color);
+  transition: var(--hover-transition);
+}
+
+a:hover {
+  color: var(--main-text-color-hover);
 }

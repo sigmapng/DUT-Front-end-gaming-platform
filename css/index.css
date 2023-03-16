@@ -1,0 +1,43 @@
+.nav-links a {
+  margin: 0 30px;
+}
+
+.contact-btn {
+  background-color: var(--contacts-btn-color);
+  padding: 11px 15px;
+  border-radius: 4px;
+}
+
+.contact-btn:hover {
+  background-color: var(--contacts-btn-hover);
+}
+
+.intro-part {
+  width: 100vw;
+  background: var(--bg-gradient);
+  display: flex;
+}
+
+.intro-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 100px;
+}
+
+.intro-text * {
+  margin: 15px 0;
+}
+
+.details-btn {
+  background-color: var(--details-btn-color);
+  background: var(--details-btn-gradient);
+  transition: var(--hover-transition);
+  padding: 15px 20px;
+  border-radius: 20px;
+}
+
+.details-btn:hover {
+  background: var(--details-bg-hover);
+}
