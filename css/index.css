@@ -160,3 +160,52 @@
   width: 950px;
   margin: 0 0 100px;
 }
+
+.services {
+  background-image: url(../img/Rectangle\ 5.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  max-width: 2000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 0 0;
+}
+
+.services-text {
+  text-align: center;
+  width: 60%;
+  margin: 20px 0;
+}
+
+
+.services-preview-wrap {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 200px;
+  margin: 50px 0;
+}
+
+.services-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.services-preview * {
+  margin: 10px 30px;
+}
+
+.services-img, .arrow-svg {
+  width: 30px;
+}
+
+.services-img {
+  background-color: #ffff;
+  border-radius: 50px;
+  padding: 10px;
+}

@@ -17,6 +17,10 @@
   margin: 0;
 }
 
+img {
+  width: 50%;
+}
+
 html {
   scroll-behavior: smooth;
 }
