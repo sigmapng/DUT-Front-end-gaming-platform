@@ -88,3 +88,40 @@
   top: 80px;
   right: 250px;
 }
+
+.trending-games-section {
+  margin: 100px 0;
+}
+
+.trending-section-title {
+  margin: 0 180px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.see-all-btn {
+  background: var(--see-all-btn-bg);
+  padding: 7px 25px;
+  border-radius: 5px;
+}
+
+.trending-gmaes-info {
+  display: flex;
+  justify-content: center;
+}
+
+.games-preview-wrap {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px;
+}
+
+.games-preview {
+  width: 200px;
+  margin: 20px 0;
+}
+
+.flame-img {
+  width: 15px;
+}
