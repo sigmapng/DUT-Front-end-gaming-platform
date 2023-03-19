@@ -1,6 +1,6 @@
 :root {
-  --general-bg: rgb(16, 15, 14);
-  --bg-gradient: linear-gradient(180deg, rgba(16, 15, 14, 1) 20%, rgba(43, 28, 11, 1) 80%);
+  --general-bg: rgb(0, 0, 0);
+  --bg-gradient: linear-gradient(180deg, rgba(0, 0, 0, 1) 20%, rgba(44, 29, 14, 1) 80%);
   --hover-transition: 0.4s ease-in-out;
   --main-text-color: #ffff;
   --main-text-color-hover: #ffffff59;
@@ -38,6 +38,7 @@ header {
   align-items: center;
   justify-content: space-between;
   position: relative;
+  z-index: 10;
 }
 
 header nav, header h2 {
@@ -64,4 +65,11 @@ h3 {
 h4 {
   font-family: 'Rubik', sans-serif;
   font-size: 18px;
+}
+
+h5 {
+  font-size: 23px;
+  width: 40%;
+  text-align: center;
+  font-weight: 400;
 }
