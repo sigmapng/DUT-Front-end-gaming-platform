@@ -59,7 +59,6 @@
 }
 
 .joystick-wrap {
-  z-index: 2;
   width: 30%;
   max-width: 2000px;
 }
@@ -205,7 +204,74 @@
 }
 
 .services-img {
-  background-color: #ffff;
+  background-color: var(--services-img-bg);
   border-radius: 50px;
   padding: 10px;
+}
+
+.recent-projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 100px 0 50px;
+}
+
+.recent-projects h5 {
+  margin: 20px 0;
+}
+
+.projects-preview {
+  display: flex;
+}
+
+.projects-preview img {
+  width: 300px;
+  margin: 20px;
+}
+
+.preview-pt-2 img {
+  width: 350px;
+}
+
+#small-preview {
+  width: 200px;
+}
+
+.pre-footer {
+  margin: 0 150px;
+}
+
+.pre-footer h5 {
+  margin: 0 0 10px;
+  text-align: start;
+}
+
+.subscription-wrap {
+  background-color: var(--subscription-wrap);
+  border-radius: 10px;
+  padding: 40px 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscription-btn {
+  background-color: var(--btn-color);
+  border-style: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: var(--main-taxt-color);
+}
+
+.input-wrap {
+  display: flex;
+}
+
+.email-input {
+  box-sizing: border-box;
+  caret-color: var(--btn-color);
+}
+
+.email-input:focus {
+  outline: none;
+
 }
