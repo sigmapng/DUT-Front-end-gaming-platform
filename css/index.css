@@ -238,40 +238,58 @@
 }
 
 .pre-footer {
-  margin: 0 150px;
+  margin: 0 150px 150px;
 }
 
 .pre-footer h5 {
-  margin: 0 0 10px;
+  margin: 0 0 15px;
   text-align: start;
+}
+
+#pre-footer-text {
+  margin: 0 0 50px;
+  width: 50%;
 }
 
 .subscription-wrap {
   background-color: var(--subscription-wrap);
   border-radius: 10px;
   padding: 40px 80px;
+  display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.subscription-text-wrap {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 20px;
+  padding: 0 10px;
+}
+
+.input-wrap {
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 
 .subscription-btn {
   background-color: var(--btn-color);
   border-style: none;
   border-radius: 5px;
-  padding: 5px 10px;
+  padding: 10px 30px;
   color: var(--main-taxt-color);
-}
-
-.input-wrap {
-  display: flex;
+  position: absolute;
+  right: 5px;
 }
 
 .email-input {
   box-sizing: border-box;
   caret-color: var(--btn-color);
+  padding: 15px 150px 15px 20px;
+  border-radius: 5px;
 }
 
 .email-input:focus {
   outline: none;
-
 }
