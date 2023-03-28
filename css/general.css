@@ -2,7 +2,7 @@
   --general-bg: rgb(0, 0, 0);
   --bg-gradient: linear-gradient(180deg, rgba(0, 0, 0, 1) 20%, rgba(44, 29, 14, 1) 80%);
   --hover-transition: 0.4s ease-in-out;
-  --main-text-color: #ffff;
+  --main-text-color: #ffffff;
   --main-text-color-hover: #ffffff59;
   --contacts-btn-color: rgb(250, 144, 33);
   --contacts-btn-hover: rgba(250, 145, 33, 0.627);
@@ -82,4 +82,15 @@ h5 {
   width: 40%;
   text-align: center;
   font-weight: 400;
+}
+
+footer {
+  display: flex;
+  margin: 0 150px 50px;
+  font-size: 12px;
+  padding-top: 50px;
+}
+
+footer div {
+  margin-right: 20px;
 }
