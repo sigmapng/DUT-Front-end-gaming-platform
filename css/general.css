@@ -89,8 +89,38 @@ footer {
   margin: 0 150px 50px;
   font-size: 12px;
   padding-top: 50px;
+  justify-content: center;
 }
 
 footer div {
-  margin-right: 20px;
+  margin-right: 60px;
+}
+
+@media (max-width: 1065px) {
+  footer {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1000px) {
+  header {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  footer {
+    margin: 0 60px 50px;
+  }
+
+  footer div {
+    margin-right: 25px;
+  }
+}
+
+@media (max-width: 550px) {
+  header nav {
+    position: absolute;
+    top: -200px;
+  }
 }
